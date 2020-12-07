@@ -104,7 +104,7 @@
 .portfolioContainerFull2 .aboutPage {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     padding-bottom: 80px;
 }
@@ -129,6 +129,7 @@
     justify-content: center;
     align-items: center;
     background-color: white;
+    padding-top: 35px;
 }
 .portfolioContainerFull2 .portfolioUserSummary {
     width: 60%;
@@ -255,12 +256,21 @@
     padding-top: 40px;
     padding-bottom: 40px;
 }
+.portfolioContainerFull2
+    .portfolioVolunteerExpansionPanel
+    .portfolioCardDateContainer {
+    padding: 0px 12px;
+    width: auto;
+    margin-left: 0px;
+    margin-right: auto;
+}
 .portfolioContainerFull2 .portfolioVolunteerExpansionPanel {
     width: 80%;
     margin: auto;
     margin-top: 3px;
     margin-bottom: 3px;
 }
+
 .portfolioContainerFull2 .portfolioExpansionPanelTitle {
     flex-basis: 60%;
     flex-shrink: 0;
